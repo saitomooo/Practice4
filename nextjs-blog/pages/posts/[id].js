@@ -3,7 +3,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts.js'
 // インポートのためにこの文を追加する
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
-
+import Head from 'next/head'
 export default function Post({ postData }) {
   return (
     <Layout>
